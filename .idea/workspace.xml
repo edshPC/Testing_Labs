@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="012a0898-5814-4544-a1f1-57adabaca6ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/model/Body.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/model/Fingers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/model/Kilobuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/model/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="012a0898-5814-4544-a1f1-57adabaca6ce" name="Changes" comment="Param test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/lab1/FunctionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab1/FunctionTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2taQC5VWO5WDtm0lfd2hM1ar22e" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,21 +34,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.FunctionTests.executor": "Debug",
-    "JUnit.FunctionTests.modelTest.executor": "Run",
-    "JUnit.FunctionTests.sortTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Program Files/Java/visualvm_218/bin/visualvm.exe",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.FunctionTests.arctgTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FunctionTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FunctionTests.modelTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FunctionTests.sortTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/Java/visualvm_218/bin/visualvm.exe&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.FunctionTests.modelTest">
+}</component>
+  <component name="RunManager" selected="JUnit.FunctionTests.arctgTest">
+    <configuration name="FunctionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab1" />
+      <option name="MAIN_CLASS_NAME" value="lab1.FunctionTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionTests.arctgTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab1" />
+      <option name="MAIN_CLASS_NAME" value="lab1.FunctionTests" />
+      <option name="METHOD_NAME" value="arctgTest(double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionTests.modelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <extension name="coverage">
@@ -93,6 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunctionTests.arctgTest" />
+        <item itemvalue="JUnit.FunctionTests" />
         <item itemvalue="JUnit.FunctionTests.modelTest" />
         <item itemvalue="JUnit.FunctionTests.sortTest" />
       </list>
@@ -114,11 +138,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740587574141</updated>
-      <workItem from="1740587575191" duration="9958000" />
+      <workItem from="1740587575191" duration="10309000" />
+      <workItem from="1740739377691" duration="2319000" />
+      <workItem from="1740741733611" duration="1656000" />
     </task>
+    <task id="LOCAL-00001" summary="Model &amp; tests">
+      <option name="closed" value="true" />
+      <created>1740601270811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740601270811</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Param test">
+      <option name="closed" value="true" />
+      <created>1740742057118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740742057118</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Model &amp; tests" />
+    <MESSAGE value="Param test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Param test" />
   </component>
 </project>

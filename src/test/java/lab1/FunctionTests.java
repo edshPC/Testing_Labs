@@ -1,28 +1,37 @@
 package lab1;
 
-import lab1.model.Body;
-import lab1.model.Kilobuzz;
-import lab1.model.Person;
-import lab1.model.Position;
+import lab1.model.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.MethodSource;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.*;
+import java.util.stream.DoubleStream;
 
 public class FunctionTests {
     private static final double DELTA = 1e-6;
     private static final Random rand = new Random();
 
-    @Test
-    void arctgTest() {
-        for (double i = -Math.PI/2; i <= Math.PI/2; i += 1e-4) {
+    @ParameterizedTest
+    @MethodSource
+    @ValueSource(doubles = {0, Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY})
+    void arctgTest(double x) {
+        Assertions.assertEquals(
+                Functions.arctg(x),
+                Math.atan(x),
+                DELTA
+        );
+    }
+
+    static DoubleStream arctgTest() {
+        var builder = DoubleStream.builder();
+        for (double i = -Math.PI / 2; i <= Math.PI / 2; i += 1e-3) {
             double x = Math.tan(i);
-            Assertions.assertEquals(
-                    Functions.arctg(x),
-                    Math.atan(x),
-                    DELTA
-            );
+            builder.add(x);
         }
+        return builder.build();
     }
 
     @Test
