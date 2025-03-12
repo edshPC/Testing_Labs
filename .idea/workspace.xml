@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="012a0898-5814-4544-a1f1-57adabaca6ce" name="Changes" comment="Param test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab2/functions/FuncSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab2/functions/Logarithmic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab2/functions/Trigonometric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lab2/FunctionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lab1/FunctionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab1/FunctionTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;edshPC&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/edshPC/Testing_Labs.git&quot;,
+    &quot;accountId&quot;: &quot;292c9125-8391-4e96-8b5c-2435cc20db82&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -34,22 +49,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.FunctionTests.arctgTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FunctionTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FunctionTests.modelTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FunctionTests.sortTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/Java/visualvm_218/bin/visualvm.exe&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.FunctionTest.test.executor": "Run",
+    "JUnit.FunctionTests.arctgTest.executor": "Run",
+    "JUnit.FunctionTests.executor": "Run",
+    "JUnit.FunctionTests.modelTest.executor": "Run",
+    "JUnit.FunctionTests.sortTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Program Files/Java/visualvm_218/bin/visualvm.exe",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.FunctionTests.arctgTest">
+}]]></component>
+  <component name="RunManager" selected="JUnit.FunctionTest.test">
+    <configuration name="FunctionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab2" />
+      <option name="MAIN_CLASS_NAME" value="lab2.FunctionTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <extension name="coverage">
@@ -115,6 +149,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunctionTest.test" />
         <item itemvalue="JUnit.FunctionTests.arctgTest" />
         <item itemvalue="JUnit.FunctionTests" />
         <item itemvalue="JUnit.FunctionTests.modelTest" />
@@ -125,8 +160,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39" />
       </set>
     </attachedChunks>
   </component>
@@ -140,7 +175,10 @@
       <updated>1740587574141</updated>
       <workItem from="1740587575191" duration="10309000" />
       <workItem from="1740739377691" duration="2319000" />
-      <workItem from="1740741733611" duration="1656000" />
+      <workItem from="1740741733611" duration="3097000" />
+      <workItem from="1740922550537" duration="45000" />
+      <workItem from="1741374532990" duration="384000" />
+      <workItem from="1741771650409" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="Model &amp; tests">
       <option name="closed" value="true" />
@@ -158,15 +196,38 @@
       <option name="project" value="LOCAL" />
       <updated>1740742057118</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Param test">
+      <option name="closed" value="true" />
+      <created>1740743419623</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740743419623</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Model &amp; tests" />
     <MESSAGE value="Param test" />
     <option name="LAST_COMMIT_MESSAGE" value="Param test" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
