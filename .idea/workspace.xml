@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="012a0898-5814-4544-a1f1-57adabaca6ce" name="Changes" comment="Param test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab2/functions/FuncSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab2/functions/Logarithmic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab2/functions/Trigonometric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lab2/FunctionTest.java" afterDir="false" />
+    <list default="true" id="012a0898-5814-4544-a1f1-57adabaca6ce" name="Changes" comment="lab2 impl">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab2/functions/SeriesExpansion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lab2/IntegrationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/functions/FuncSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/functions/FuncSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/functions/Logarithmic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/functions/Logarithmic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/functions/Trigonometric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/functions/Trigonometric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab2/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab2/FunctionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +181,7 @@
       <workItem from="1740741733611" duration="3097000" />
       <workItem from="1740922550537" duration="45000" />
       <workItem from="1741374532990" duration="384000" />
-      <workItem from="1741771650409" duration="2226000" />
+      <workItem from="1741771650409" duration="5771000" />
     </task>
     <task id="LOCAL-00001" summary="Model &amp; tests">
       <option name="closed" value="true" />
@@ -204,7 +207,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740743419623</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lab1 diag">
+      <option name="closed" value="true" />
+      <created>1741773939372</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741773939372</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lab2 impl">
+      <option name="closed" value="true" />
+      <created>1741773947385</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741773947385</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +243,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Model &amp; tests" />
     <MESSAGE value="Param test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Param test" />
+    <MESSAGE value="lab1 diag" />
+    <MESSAGE value="lab2 impl" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab2 impl" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

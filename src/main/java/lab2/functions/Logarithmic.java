@@ -1,34 +1,25 @@
 package lab2.functions;
 
+import lombok.RequiredArgsConstructor;
+
+@RequiredArgsConstructor
 public class Logarithmic {
 
-    public static double ln(double x) {
-        if (x <= 0) {
-            throw new IllegalArgumentException("ln(x) определён только для x > 0");
-        }
-        double epsilon = 1e-15;
-        double t = (x - 1) / (x + 1);
-        double term = t;
-        double sum = 0;
-        int n = 1;
+    private final SeriesExpansion exp;
 
-        while (Math.abs(term) > epsilon) {
-            sum += term / n;
-            term *= t * t;
-            n += 2;
-        }
-        return 2 * sum;
+    public double ln(double x) {
+        return exp.ln(x);
     }
 
-    public static double log_2(double x) {
+    public double log_2(double x) {
         return ln(x) / ln(2);
     }
 
-    public static double log_5(double x) {
+    public double log_5(double x) {
         return ln(x) / ln(5);
     }
 
-    public static double log_10(double x) {
+    public double log_10(double x) {
         return ln(x) / ln(10);
     }
 

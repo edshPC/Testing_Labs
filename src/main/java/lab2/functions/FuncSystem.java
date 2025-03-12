@@ -1,18 +1,26 @@
 package lab2.functions;
 
-import static lab2.functions.Trigonometric.*;
-import static lab2.functions.Logarithmic.*;
+import lombok.RequiredArgsConstructor;
 
+@RequiredArgsConstructor
 public class FuncSystem {
 
-    public static double system(double x) {
-        if (x <= 0) {
-            return ((((sec(x) + sec(x)) + tan(x)) + Math.pow(cot(x), 2))
-                     - ((cos(x) - sin(x)) * cos(x))) - cos(x);
-        } else {
-            return Math.pow((((ln(x) / log_5(x)) - log_2(x)) * log_10(x))
-                     * log_10(x), 2) / (log_5(x) + ln(x));
-        }
+    private final Trigonometric tr;
+    private final Logarithmic lg;
+
+    public double f1(double x) {
+        return ((((tr.sec(x) + tr.sec(x)) + tr.tan(x)) + Math.pow(tr.cot(x), 2))
+                - ((tr.cos(x) - tr.sin(x)) * tr.cos(x))) - tr.cos(x);
+    }
+
+    public double f2(double x) {
+        return Math.pow((((lg.ln(x) / lg.log_5(x)) - lg.log_2(x)) * lg.log_10(x))
+                        * lg.log_10(x), 2) / (lg.log_5(x) + lg.ln(x));
+    }
+
+    public double system(double x) {
+        if (x <= 0) return f1(x);
+        else return f2(x);
     }
 
 }
