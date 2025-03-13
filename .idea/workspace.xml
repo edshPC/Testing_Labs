@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="012a0898-5814-4544-a1f1-57adabaca6ce" name="Changes" comment="lab2 impl">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab2/functions/SeriesExpansion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lab2/IntegrationTests.java" afterDir="false" />
+    <list default="true" id="012a0898-5814-4544-a1f1-57adabaca6ce" name="Changes" comment="non-static">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lab2/FuncSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lab2/LogarithmicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lab2/SeriesExpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lab2/TrigonometricTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/functions/FuncSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/functions/FuncSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/functions/Logarithmic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/functions/Logarithmic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/functions/Trigonometric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/functions/Trigonometric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lab2/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab2/FunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/functions/FuncSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/FuncSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/functions/Logarithmic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/Logarithmic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/functions/SeriesExpansion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/SeriesExpansion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/functions/Trigonometric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/Trigonometric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab2/FunctionTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +57,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.FuncSystemTest.testF1.executor": "Run",
+    "JUnit.FuncSystemTest.testF2.executor": "Run",
+    "JUnit.FuncSystemTest.testSystem.executor": "Run",
     "JUnit.FunctionTest.test.executor": "Run",
     "JUnit.FunctionTests.arctgTest.executor": "Run",
     "JUnit.FunctionTests.executor": "Run",
     "JUnit.FunctionTests.modelTest.executor": "Run",
     "JUnit.FunctionTests.sortTest.executor": "Run",
+    "JUnit.IntegrationTests.testSin.executor": "Run",
+    "JUnit.LogarithmicTest.executor": "Run",
+    "JUnit.LogarithmicTest.testLn.executor": "Run",
+    "JUnit.LogarithmicTest.testLog2.executor": "Run",
+    "JUnit.TrigonometricTest.executor": "Run",
+    "JUnit.TrigonometricTest.testCos.executor": "Run",
+    "JUnit.TrigonometricTest.testCot.executor": "Run",
+    "JUnit.TrigonometricTest.testSec.executor": "Run",
+    "JUnit.TrigonometricTest.testTan.executor": "Run",
+    "JUnit.lab2 in Testing.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -67,11 +83,11 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "reference.idesettings.debugger.capture"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FunctionTest.test">
-    <configuration name="FunctionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.lab2 in Testing">
+    <configuration name="FuncSystemTest.testF1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <extension name="coverage">
         <pattern>
@@ -80,83 +96,75 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lab2" />
-      <option name="MAIN_CLASS_NAME" value="lab2.FunctionTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="lab2.FuncSystemTest" />
+      <option name="METHOD_NAME" value="testF1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FuncSystemTest.testF2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab1.*" />
+          <option name="PATTERN" value="lab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab1" />
-      <option name="MAIN_CLASS_NAME" value="lab1.FunctionTests" />
+      <option name="PACKAGE_NAME" value="lab2" />
+      <option name="MAIN_CLASS_NAME" value="lab2.FuncSystemTest" />
+      <option name="METHOD_NAME" value="testF2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuncSystemTest.testSystem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab2" />
+      <option name="MAIN_CLASS_NAME" value="lab2.FuncSystemTest" />
+      <option name="METHOD_NAME" value="testSystem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogarithmicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab2" />
+      <option name="MAIN_CLASS_NAME" value="lab2.LogarithmicTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTests.arctgTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="lab2 in Testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab1" />
-      <option name="MAIN_CLASS_NAME" value="lab1.FunctionTests" />
-      <option name="METHOD_NAME" value="arctgTest(double)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionTests.modelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab1" />
-      <option name="MAIN_CLASS_NAME" value="lab1.FunctionTests" />
-      <option name="METHOD_NAME" value="modelTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionTests.sortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab1" />
-      <option name="MAIN_CLASS_NAME" value="lab1.FunctionTests" />
-      <option name="METHOD_NAME" value="sortTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/lab2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FunctionTest.test" />
-        <item itemvalue="JUnit.FunctionTests.arctgTest" />
-        <item itemvalue="JUnit.FunctionTests" />
-        <item itemvalue="JUnit.FunctionTests.modelTest" />
-        <item itemvalue="JUnit.FunctionTests.sortTest" />
+        <item itemvalue="JUnit.lab2 in Testing" />
+        <item itemvalue="JUnit.FuncSystemTest.testSystem" />
+        <item itemvalue="JUnit.FuncSystemTest.testF2" />
+        <item itemvalue="JUnit.FuncSystemTest.testF1" />
+        <item itemvalue="JUnit.LogarithmicTest" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +189,9 @@
       <workItem from="1740741733611" duration="3097000" />
       <workItem from="1740922550537" duration="45000" />
       <workItem from="1741374532990" duration="384000" />
-      <workItem from="1741771650409" duration="5771000" />
+      <workItem from="1741771650409" duration="10475000" />
+      <workItem from="1741858280452" duration="2319000" />
+      <workItem from="1741860625524" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="Model &amp; tests">
       <option name="closed" value="true" />
@@ -223,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741773947385</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="non-static">
+      <option name="closed" value="true" />
+      <created>1741781157032</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741781157032</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +263,8 @@
     <MESSAGE value="Param test" />
     <MESSAGE value="lab1 diag" />
     <MESSAGE value="lab2 impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab2 impl" />
+    <MESSAGE value="non-static" />
+    <option name="LAST_COMMIT_MESSAGE" value="non-static" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

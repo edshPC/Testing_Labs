@@ -1,4 +1,4 @@
-package lab2.functions;
+package lab2;
 
 import lombok.RequiredArgsConstructor;
 
