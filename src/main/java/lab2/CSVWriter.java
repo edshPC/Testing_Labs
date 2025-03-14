@@ -16,7 +16,7 @@ public class CSVWriter {
         Files.deleteIfExists(path);
         try (FileWriter fw = new FileWriter(path.toFile())) {
             for (double x = from; x <= to; x += step) {
-                fw.write(x + "," + f.apply(x) + "\n");
+                fw.write(x + "," + Math.min(f.apply(x), 1000) + "\n");
             }
         }
     }
@@ -38,7 +38,7 @@ public class CSVWriter {
         generate("target/log_5.csv", .1, 20, .1, lg::log_5);
         generate("target/log_10.csv", .1, 20, .1, lg::log_10);
 
-        generate("target/system.csv", -10.12, 10, .1, system::system);
+        generate("target/system.csv", -10.005, 10, .01, system::system);
     }
 
 }

@@ -8,14 +8,17 @@ public class TrigonometricTest {
 
     private static final double DELTA = 1e-6;
 
+    final double sin_1 = Math.sin(1.0), sin_1_pi_2 = Math.sin(1 + Math.PI / 2);
+
     @Test
     public void testSin() {
         var exp = mock(SeriesExpansion.class);
-        when(exp.sin(1)).thenReturn(1.0);
+
+        when(exp.sin(1)).thenReturn(sin_1);
 
         var tr = new Trigonometric(exp);
 
-        assertEquals(1, tr.sin(1), DELTA);
+        assertEquals(sin_1, tr.sin(1), DELTA);
         verify(exp, atLeastOnce()).sin(1);
     }
 
@@ -35,14 +38,14 @@ public class TrigonometricTest {
     public void testTan() {
         var exp = mock(SeriesExpansion.class);
         when(exp.sin(0)).thenReturn(0.0);
-        when(exp.sin(1)).thenReturn(0.5);
+        when(exp.sin(1)).thenReturn(sin_1);
         when(exp.sin(Math.PI / 2)).thenReturn(1.0);
-        when(exp.sin(1 + Math.PI / 2)).thenReturn(1.5);
+        when(exp.sin(1 + Math.PI / 2)).thenReturn(sin_1_pi_2);
 
         var tr = new Trigonometric(exp);
 
         assertEquals(0.0, tr.tan(0), DELTA);
-        assertEquals(0.5 / 1.5, tr.tan(1), DELTA);
+        assertEquals(sin_1 / sin_1_pi_2, tr.tan(1), DELTA);
 
         verify(exp, atLeastOnce()).sin(1);
         verify(exp, atLeastOnce()).sin(1 + Math.PI / 2);
@@ -51,12 +54,12 @@ public class TrigonometricTest {
     @Test
     public void testCot() {
         var exp = mock(SeriesExpansion.class);
-        when(exp.sin(1)).thenReturn(0.5);
-        when(exp.sin(1 + Math.PI / 2)).thenReturn(1.5);
+        when(exp.sin(1)).thenReturn(sin_1);
+        when(exp.sin(1 + Math.PI / 2)).thenReturn(sin_1_pi_2);
 
         var tr = new Trigonometric(exp);
 
-        assertEquals(1.5 / 0.5, tr.cot(1), DELTA);
+        assertEquals(sin_1_pi_2 / sin_1, tr.cot(1), DELTA);
 
         verify(exp, atLeastOnce()).sin(1);
         verify(exp, atLeastOnce()).sin(1 + Math.PI / 2);
