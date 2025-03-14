@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="012a0898-5814-4544-a1f1-57adabaca6ce" name="Changes" comment="non-static">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lab2/FuncSystemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lab2/LogarithmicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lab2/SeriesExpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lab2/TrigonometricTest.java" afterDir="false" />
+    <list default="true" id="012a0898-5814-4544-a1f1-57adabaca6ce" name="Changes" comment="All integration tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab2/CSVWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/functions/FuncSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/FuncSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/functions/Logarithmic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/Logarithmic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/functions/SeriesExpansion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/SeriesExpansion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/functions/Trigonometric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/Trigonometric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lab2/FunctionTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CSVWriter.executor": "Run",
     "JUnit.FuncSystemTest.testF1.executor": "Run",
     "JUnit.FuncSystemTest.testF2.executor": "Run",
     "JUnit.FuncSystemTest.testSystem.executor": "Run",
@@ -86,7 +78,20 @@
     "settings.editor.selected.configurable": "reference.idesettings.debugger.capture"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.lab2 in Testing">
+  <component name="RunManager" selected="Application.CSVWriter">
+    <configuration name="CSVWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab2.CSVWriter" />
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FuncSystemTest.testF1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <extension name="coverage">
@@ -135,21 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogarithmicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab2" />
-      <option name="MAIN_CLASS_NAME" value="lab2.LogarithmicTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="lab2 in Testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <option name="TEST_OBJECT" value="directory" />
@@ -160,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CSVWriter" />
         <item itemvalue="JUnit.lab2 in Testing" />
         <item itemvalue="JUnit.FuncSystemTest.testSystem" />
         <item itemvalue="JUnit.FuncSystemTest.testF2" />
         <item itemvalue="JUnit.FuncSystemTest.testF1" />
-        <item itemvalue="JUnit.LogarithmicTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +181,7 @@
       <workItem from="1741374532990" duration="384000" />
       <workItem from="1741771650409" duration="10475000" />
       <workItem from="1741858280452" duration="2319000" />
-      <workItem from="1741860625524" duration="341000" />
+      <workItem from="1741860625524" duration="6155000" />
     </task>
     <task id="LOCAL-00001" summary="Model &amp; tests">
       <option name="closed" value="true" />
@@ -241,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741781157032</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="All integration tests">
+      <option name="closed" value="true" />
+      <created>1741860985136</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741860985136</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +262,8 @@
     <MESSAGE value="lab1 diag" />
     <MESSAGE value="lab2 impl" />
     <MESSAGE value="non-static" />
-    <option name="LAST_COMMIT_MESSAGE" value="non-static" />
+    <MESSAGE value="All integration tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="All integration tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
